@@ -137,7 +137,7 @@ CorrectPassword = "AHMAD"
 
 loop = 'true'
 while (loop == 'true'):
- username = raw_input("\033[1;95m[⚡] \x1b[1;97mEnter Username \x1b[1;95m= ")
+    username = raw_input("\033[1;95m[⚡] \x1b[1;97mEnter Username \x1b[1;95m= ")
     if (username == CorrectUsername):
     	password = raw_input("\033[1;95m[⚡] \x1b[1;97mEnter Password \x1b[1;95m= ")
         if (password == CorrectPassword):
