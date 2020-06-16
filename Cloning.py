@@ -276,7 +276,7 @@ def super():
 		time.sleep(1)
 		login()
 	os.system('clear')
-		print logo
+	print logo
 	print "\x1b[1;32;40m[1] \033[1;33;40m⚡ From Friend List"
 	print "\x1b[1;32;40m[2] \033[1;33;40m⚡ From Public ID"
 	print "\x1b[1;32;40m[0] \033[1;33;40m⚡ Back"
