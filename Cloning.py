@@ -281,6 +281,7 @@ def super():
 	print "\x1b[1;32;40m[2] \033[1;33;40m⚡ From Public ID"
 	print "\x1b[1;32;40m[0] \033[1;33;40m⚡ Back"
 	pilih_super()
+	
 	def pilih_super():
 	peak = raw_input("\n\033[1;31;40m>>> \033[1;97m")
 	if peak =="":
