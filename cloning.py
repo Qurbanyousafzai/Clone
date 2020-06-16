@@ -395,9 +395,9 @@ def pilih_super():
                                                else:
 			                               if 'www.facebook.com' in q["error_msg"]:
 				                           print '\x1b[1;96m[ ✖ ] \x1b[1;94mCheckpoint'
-				                           print '\x1b[1;96m[⚡⚡] \x1b[1;96mName \x1b[1;93m    : \x1b[1;96m' + b['name']
-				                           print '\x1b[1;96m[⚡⚡] \x1b[1;96mID \x1b[1;93m      : \x1b[1;96m' + user
-				                           print '\x1b[1;96m[⚡⚡] \x1b[1;96mPassword \x1b[1;93m: \x1b[1;96m' + pass3 + '\n'
+				                           print '\x1b[1;96m[⚡⚡] \x1b[1;96mName \x1b[1;96m    : \x1b[1;96m' + b['name']
+				                           print '\x1b[1;96m[⚡⚡] \x1b[1;96mID \x1b[1;96m      : \x1b[1;96m' + user
+				                           print '\x1b[1;96m[⚡⚡] \x1b[1;96mPassword \x1b[1;96m: \x1b[1;96m' + pass3 + '\n'
 				                           cek = open("out/super_cp.txt", "a")
 				                           cek.write("ID:" +user+ " Pw:" +pass3+"\n")
 				                           cek.close()
