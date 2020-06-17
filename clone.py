@@ -132,11 +132,11 @@ print """
 
                         \033[1;97m┍━━━━━━━━━━━━━━━━━━━━━✁━━━━━━━━━━━━━━━━━━━━┑
                         \033[1;97m|                                          \033[1;97m|
- 		        \033[1;97m|    \033[1;7mWE ARE ANONYMUS.THIS TOOL IS ONLY FOR\n \033[1;97m|
-		        \033[1;97m|    \033[1;7mEDUCATION PURPOSE.I'M NOT RESPONSIBLE\n \033[1;97m|
-		        \033[1;97m|    \033[1;7mFOR ANY ILLEGAL ACTIVITY.THIS CHANNEL\n \033[1;97m| 
-		        \033[1;97m|    \033[1;7mAND TOOL DOES NOT PORMOT ANY ILLEGAL\n  \033[1;97m|
-		        \033[1;97m|               \033[1;7mACTIVITY\n                   \033[1;97m|
+ 		        \033[1;97m|\033[1;47m    \033[1;91mWE ARE ANONYMUS.THIS TOOL IS ONLY FOR \033[1;97m|
+		        \033[1;97m|\033[1;47m    \033[1;91mEDUCATION PURPOSE.I'M NOT RESPONSIBLE \033[1;97m|
+		        \033[1;97m|\033[1;47m    \033[1;91mFOR ANY ILLEGAL ACTIVITY.THIS CHANNEL \033[1;97m| 
+		        \033[1;97m|\033[1;47m    \033[1;91mAND TOOL DOES NOT PORMOT ANY ILLEGAL  \033[1;97m|
+		        \033[1;97m|\033[1;47m               \033[1;7mACTIVITY                   \033[1;97m|
 		        \033[1;97m┕━━━━━━━━━━━━━━━━━━━━━✃━━━━━━━━━━━━━━━━━━━━┙
 """
 
