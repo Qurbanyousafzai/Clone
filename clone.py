@@ -168,7 +168,7 @@ def login():
 		os.system('clear')
 		print logo
 		print('          \033[1;97m[!!] \x1b[1;96mLogin With Fresh Account \033[1;97m[!!]' )
-               jalan("\033[1;96m★━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━★") 
+              jalan("\033[1;96m★━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━★") 
 		id = raw_input('          \033[1;97m[**] \033[1;92mEnter ID/Email \x1b[1;91m: \x1b[1;92m')
 		pwd = raw_input('          \033[1;97m[**] \033[1;92mEnter Password \x1b[1;91m: \x1b[1;92m')
               jalan("\033[1;96m★━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━★") 
