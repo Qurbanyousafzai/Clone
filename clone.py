@@ -136,7 +136,7 @@ print """
 		        \033[1;97m|    \033[1;91mEDUCATION PURPOSE.I'M NOT RESPONSIBLE \033[1;97m|
 		        \033[1;97m|    \033[1;91mFOR ANY ILLEGAL ACTIVITY.THIS CHANNEL \033[1;97m| 
 		        \033[1;97m|    \033[1;91mAND TOOL DOES NOT PORMOT ANY ILLEGAL  \033[1;97m|
-		        \033[1;97m|               \033[1;91ACTIVITY                    \033[1;97m|
+		        \033[1;97m|               \033[1;91mACTIVITY                    \033[1;97m|
 		        \033[1;97m┕━━━━━━━━━━━━━━━━━━━━━✃━━━━━━━━━━━━━━━━━━━━┙
 """
 
